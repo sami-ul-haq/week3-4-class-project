@@ -1,0 +1,294 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    background-color:#4385c1;
+    /* height: 80px; */
+ 
+}
+
+#menuleft ul{
+    list-style: none;
+
+
+}
+
+#menuleft ul li{
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+
+#menuleft ul a{
+    text-decoration: none;
+    color: white;
+}
+#menuleft ul a:hover{
+
+    color: #043867;
+}
+
+#logo{
+    margin: 10px 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#logo h1{
+    color: white;
+}
+
+#logo p{
+    color: white;
+}
+
+#menuright{
+    margin-left: 150px;
+    /* margin-bottom: 10px; */
+    
+}
+
+#menuright button{
+    background-color: #327ABD;
+    border: 1px solid white;
+    margin: 10px ;
+}
+
+#menuright button a{
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white ;  
+}
+
+#menuright button a:hover{
+    color: #327ABD;
+    background-color: white;
+    /* border: 1px solid #043867; */
+}
+
+
+
+.nav_bar{
+    display: inline-block;
+}
+
+nav{
+    background-color: #043867;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    /* padding: 20px; */ 
+    width: 18%;
+}
+
+nav ul a{
+   color: #3F83BF;
+   text-decoration: none;
+   display: block;
+   padding: 20px;
+}
+
+nav ul a:hover{
+    /* color: #3F83BF; */
+    color: white;
+    background-color: rgb(4, 39, 70);
+ }
+
+.sliderimage>img{
+    /* background: url('/images/circleimage.PNG') center center/cover; */
+    max-width: 100%;
+    height: auto;
+
+}
+
+.slidercontent{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    text-transform: uppercase;
+    /* background-color: white; */
+    /* padding: 50px; */
+}
+
+.programs{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+.sec2{
+    background-color:#7AA120;
+    color: white;
+    padding: 20px;
+    
+}
+
+.heading{
+   margin-right: 20px;
+}
+
+.para{
+    width: 80%;
+}
+
+
+.headingpara{
+    display: inline-block;
+}
+
+
+.box{
+    background-color: #E7ECF0;
+    color: #4385C2;
+    padding: 40px;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    /* display: inline-block; */
+    
+}
+
+.box>h1{
+    margin-bottom: 20px;
+}
+
+
+.inline{
+    padding: 40px;
+    width: 300px;
+    height: 200px;
+    /* display: inline-block; */
+    margin: 20px;
+}
+
+
+
+.box1{
+    background-color: #620E6E;
+    color: white;
+}
+
+.box2{
+    background-color: #4385C1;
+    color: white;
+}
+
+.box3{
+    padding: 10px 60px 70px 10px !important;
+    display: inline-block;
+    height: 200px;
+    width: 300px;
+    /* border: 1px solid red; */
+    margin: 20px;
+}
+
+.caldbox{
+    display: flex;
+}
+.caldbox p{
+    
+    padding-left: 28px;
+    padding-top: 35px;
+    color: #4385C1;
+}
+
+.extra{
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.buttonlinks{
+    margin: 20px;
+    text-align: center;
+}
+
+.cal-btn{
+    color: #7aa120;
+    font-size: 20px;
+    margin-top:18px ;
+    background-color: white;
+    border: 1px solid #9a8f8f;
+}
+
+.cal-btn h5{
+    font-size: 41px;
+    color: #7aa120;
+    padding:5px ;
+}
+
+
+
+.buttonlink{
+    border: 1px solid #4385C1;
+    width: 310px;
+    padding: 10px 10px;
+    display: inline-block;
+    background-color: white;
+   
+}
+.buttonlink a{
+    color: #4385C1;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.all{
+
+    display: inline-block;
+    margin: 10px;
+}
+
+
+footer{
+    background-color:#34383C;
+    padding: 20px; 
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer h2,h4{
+     color: white;
+     margin: 10px;
+}
+
+footer li{
+    list-style: none;
+    margin: 10px;
+    
+}
+
+footer li a{
+    color: #707470;
+    text-decoration: none;
+}
+
+.mainfooter{
+   
+    color: white;
+    padding: 10px;
+    padding:20px 0px 60px 0px;
+    text-align: center;
+    background-color:#34383C;
+}
